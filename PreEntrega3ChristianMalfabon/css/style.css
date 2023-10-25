@@ -5,6 +5,14 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body{
+  background-image: url(../assets/images/patronAmarillo.png);
+}
+
+.backgroundWhite{
+  background-image: url(../assets/images/patronBlanco.png);
+}
+
 h2 {
   margin-top: 15px;
   font-weight: 700;
@@ -18,14 +26,6 @@ label {
   text-decoration: underline;
   font-weight: bold;
   margin-bottom: 1%;
-}
-
-body {
-  background-image: url(/PreEntrega3ChristianMalfabon/assets/images/patron\ dulce.png);
-}
-
-.backgroundWhite {
-  background-image: url(/PreEntrega3ChristianMalfabon/assets/images/patronBlanco.png);
 }
 
 @media screen and (max-width: 320px) {
@@ -333,7 +333,7 @@ footer {
   grid-area: footer;
 }
 
-/*estilo para copy*/
+/*estilo para quienes somos*/
 #landingSomos {
   display: grid;
   grid-template-columns: 100%;
@@ -396,9 +396,6 @@ footer {
     margin-bottom: 4%;
     background-color: rgba(255, 255, 255, 0.678);
   }
-  body {
-    background-image: url(/PreEntrega3ChristianMalfabon/assets/images/patron\ dulce.png);
-  }
 }
 @media (min-width: 650px) and (max-width: 768px) {
   #landingSomos {
@@ -423,9 +420,6 @@ footer {
     margin-bottom: 4%;
     background-color: rgba(255, 255, 255, 0.678);
   }
-  body {
-    background-image: url(/PreEntrega3ChristianMalfabon/assets/images/patron\ dulce.png);
-  }
 }
 @media (min-width: 769px) and (max-width: 993px) {
   #landingSomos {
@@ -449,9 +443,6 @@ footer {
     margin-top: 1%;
     margin-bottom: 4%;
     background-color: rgba(255, 255, 255, 0.678);
-  }
-  body {
-    background-image: url(/PreEntrega3ChristianMalfabon/assets/images/patron\ dulce.png);
   }
 }
 @media (min-width: 994px) and (max-width: 1199px) {
@@ -569,6 +560,7 @@ footer {
   }
   body {
     font-size: 25px;
+    background-image: url(../assets/images/patronAmarillo.png)
   }
 }
 @media (min-width: 1800px) and (max-width: 2000px) {
@@ -613,8 +605,13 @@ footer {
   }
   body {
     font-size: 30px;
-    background-image: url(/PreEntrega3ChristianMalfabon/assets/images/patron\ dulce.png);
+    background-image: url(../assets/images/patronAmarillo.png)
   }
+
+  .backgroundWhite{
+    background-image: url(../assets/images/patronBlanco.png);
+  }
+
   .animacion {
     font-size: 40px !important;
   }
@@ -652,7 +649,10 @@ footer {
   }
   body {
     font-size: 30px;
-    background-image: url(/PreEntrega3ChristianMalfabon/assets/images/patron\ dulce.png);
+    background-image: url(../assets/images/patronAmarillo.png)
+  }
+  .backgroundWhite{
+    background-image: url(../assets/images/patronBlanco.png);
   }
 }
 footer {
